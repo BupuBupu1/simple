@@ -1,0 +1,122 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+ul,
+li {
+  list-style: none;
+}
+body {
+  font-family: 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei',
+    'WenQuanYi Micro Hei', sans-serif;
+}
+section {
+  margin: 10px 0px !important;
+}
+p {
+  font-style: normal !important;
+}
+
+.hide,
+.file {
+  display: none !important;
+}
+[h1] {
+  text-align: center;
+  color: black;
+  font-weight: normal;
+}
+.ivu-list-item-meta-title {
+  font-size: 32px !important;
+  font-weight: bold !important;
+  text-align: center;
+}
+.ivu-list-item-meta-description {
+  text-align: right;
+}
+
+.ivu-input {
+  border: 1px solid #cccccc !important;
+  border-radius: 0px !important;
+}
+.ivu-input-prefix i {
+  color: #444444 !important;
+}
+.ivu-menu-light {
+  width: 348px !important;
+  margin: 0 auto !important;
+  background: #df280f !important;
+  .ivu-menu-item {
+    font-size: 18px;
+    color: white !important;
+    position: relative;
+    top: -1px;
+    padding: 0 10px !important;
+    &:hover {
+      border-bottom: 5px solid #ffdf00 !important;
+    }
+    i {
+      font-size: 22px;
+    }
+  }
+  .ivu-menu-item-active {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffdf00 !important;
+    border-bottom: 5px solid #ffdf00 !important;
+    i {
+      font-size: 26px;
+    }
+  }
+}
+.ivu-back-top-inner i {
+  color: #ffdf00 !important;
+  background: #df280f !important;
+}
+::placeholder {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+.ql-editor::before {
+  color: #515a6e !important;
+  font-style: normal !important;
+}
+.red {
+  color: #df280f !important;
+  & > * {
+    color: #df280f !important;
+  }
+  i::before {
+    color: #df280f !important;
+  }
+}
+.yellow {
+  color: #ffdf00 !important;
+  & > * {
+    color: #ffdf00 !important;
+  }
+  i::before {
+    color: #ffdf00 !important;
+  }
+}
+.blue {
+  color: #2db7f5 !important;
+  & > * {
+    color: #2db7f5 !important;
+  }
+  i::before {
+    color: #2db7f5 !important;
+  }
+}
+
+.ivu-breadcrumb {
+  * {
+    color: #df280f !important;
+    font-size: 16px !important;
+  }
+}
+
+.ivu-list-item-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
